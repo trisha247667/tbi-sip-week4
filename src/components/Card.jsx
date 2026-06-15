@@ -1,8 +1,11 @@
-function Card() {
+function Card({ title, description, image }) {
   return (
-    <div>
-      <h3>Handmade Product</h3>
-      <p>Crafted by local artisans.</p>
+    <div className="card">
+      <img src={image} alt={title} />
+
+      <h3>{title}</h3>
+
+      <p>{description}</p>
     </div>
   );
 }

@@ -1,8 +1,20 @@
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 function Contact() {
   return (
     <>
-      <h1>Contact</h1>
-      <p>Get in touch with us for inquiries and support.</p>
+      <Navbar />
+
+      <div className="page">
+        <h1>Contact Us</h1>
+        <p>
+          Reach out to us for partnerships, collaborations,
+          and artisan opportunities.
+        </p>
+      </div>
+
+      <Footer />
     </>
   );
 }
