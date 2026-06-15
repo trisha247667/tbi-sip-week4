@@ -17,17 +17,3 @@ function App() {
 }
 
 export default App;
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-  }
-
-  .navbar {
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    gap: 10px;
-  }
-}
