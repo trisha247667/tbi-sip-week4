@@ -1,3 +1,68 @@
-body{
-  margin:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.light-mode {
+  background: #ffffff;
+  color: #222;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.light-page {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
+  padding: 30px;
+}
+
+.dark-page {
+  min-height: 100vh;
+  background: #121212;
+  color: white;
+  padding: 30px;
+}
+
+.theme-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.dark-page input {
+  background: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-page button {
+  background: #444;
+  color: white;
+}
+
+.dark-page section {
+  margin-bottom: 30px;
 }
